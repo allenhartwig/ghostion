@@ -28,9 +28,17 @@ gulp.task('concat', function() {
             'dev/src/framework/foundation/js/vendor/modernizr.js',
             'dev/src/framework/foundation/js/foundation/foundation.js',
             'dev/src/framework/foundation/js/foundation/foundation.alert.js',
+			'dev/src/framework/foundation/js/foundation/foundation.clearing.js',
+			'dev/src/framework/foundation/js/foundation/foundation.dropdown.js',
+			'dev/src/framework/foundation/js/foundation/foundation.interchange.js',
+			'dev/src/framework/foundation/js/foundation/foundation.joyride.js',
+			'dev/src/framework/foundation/js/foundation/foundation.magellan.js',
             'dev/src/framework/foundation/js/foundation/foundation.offcanvas.js',
+			'dev/src/framework/foundation/js/foundation/foundation.orbit.js',
             'dev/src/framework/foundation/js/foundation/foundation.reveal.js',
+			'dev/src/framework/foundation/js/foundation/foundation.tab.js',
             'dev/src/framework/foundation/js/foundation/foundation.tooltip.js',
+			'dev/src/framework/foundation/js/foundation/foundation.topbar.js',
             'dev/src/js/*.js'])
         .pipe(concat('ghostion.js'))
         .pipe(gulp.dest('dev/dest/js'))
